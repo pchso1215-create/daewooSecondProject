@@ -1,0 +1,40 @@
+#index{
+   .mainImg{
+    width: 100%;
+     img{
+        width: 100%;
+     }
+   } 
+   .sec1{
+    padding: 50vh 0;
+     h1{
+        text-align: center;
+        margin-bottom: 50px;
+     }
+     article>ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        width: 1200px;
+        margin: 0 auto;
+     }
+   }
+   .sec2{
+    padding-top: 50px;
+     ul{
+        li{
+            border-top: 1px solid #369195;
+            padding: 5px 20px;
+            img{
+                height: 80px;
+            }
+        }
+        li:last-child{
+            background-color: #369195;
+            border-top:  #FF0964;
+            border-bottom:  #FF0964;
+        }
+     }
+   }
+}

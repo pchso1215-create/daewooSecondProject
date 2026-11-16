@@ -1,0 +1,14 @@
+#onair{
+    h1{
+        padding: 50px;
+        text-align: center;
+        img{
+            width: 900px;
+        }
+    }
+    .subTitle{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 500;
+    }
+}
