@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 
+import streamDatas from './data/streaming.json'
 
 import onAir from './../assets/words_transparent/ONAIR.png'
 import Logo from './../assets/MONITOR/MONITOR1.png'
@@ -21,9 +23,18 @@ export default function OnAir(){
             </div>
             <section>
                 <article>
-                    <h3>
-                        무제한 스트리밍
-                    </h3>
+                    {Object.entries(streamDatas).map(([title,streams])=>(
+                        <div className='streams_Wrap'>
+                            <h3>{title}</h3>
+                            <div className='streams'>
+                                {streams.map((item,index)=>(
+                                    <div className='btn' key={index}>
+                                        <Link to={item.stAddres}>{item.stream}</Link>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
                 </article>
             </section>
         </main>
