@@ -1,0 +1,12 @@
+main{
+  margin-top: 200px;
+}
+.main{
+  background-image: url(./assets/MONITOR/MONITOR3.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 50px 0;
+  h2{
+    text-align: center;
+  }
+}

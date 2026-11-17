@@ -1,0 +1,19 @@
+#staff{
+    article{
+        width: 1600px;
+        margin: 100px auto;
+        border: 3px solid black;
+        ul{
+            padding:  30px 200px ;
+            li{
+                padding: 25px 0;
+                font-size: 28px;
+                font-weight: 500;
+            }
+        }
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,14 @@
+footer{
+    width: 100%; height: 1042px;
+    background-image: url(./../../assets/UNDER/UNDER5.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    box-sizing: border-box;
+    padding-top: 100px;
+    ul.bnr_wrap{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+}

@@ -1,0 +1,9 @@
+export { default as BOOKS } from "./BOOKS";
+export { default as CHARACTER } from "./CHARACTER";
+export { default as DVD } from "./DVD";
+export { default as EPISODES } from "./EPISODES";
+export { default as GALLERY } from "./GALLERY";
+export { default as GOODS } from "./GOODS";
+export { default as NEWS } from "./NEWS";
+export { default as ONAIR } from "./ONAIR";
+export { default as SPECIAL } from "./SPECIAL";
